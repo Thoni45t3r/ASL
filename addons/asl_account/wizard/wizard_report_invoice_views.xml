@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <!-- ========== Spesifikasi Report ========== -->
+        <report string	= "Report Kwitansi 1/2 A4"
+				model	= "wizard.report.invoice"
+				auto	= "True"
+				name	= "report_invoice_kwitansi_a42"
+				rml		= "asl_account/report/report_invoice_kwitansi_a42.jrxml"
+				id		= "c10i_lhm.report_invoice_kwitansi_a42"
+        />
+    </data>
+</odoo>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="base.IDR" model="res.currency">
+            <field name="name">IDR</field>
+            <field name="symbol">Rp</field>
+            <field name="rounding">0.01</field>
+            <field name="position">before</field>
+            <field name="active" eval="True"/>
+        </record>
+
+        <record id="base.main_company" model="res.company">
+            <field name="name">AGRI SENTRA LESTARI</field>
+            <field name="rml_header1">SINAR JAYA AGRO INVESTAMA</field>
+            <field name="website">http://www.sjai.co.id</field>
+            <field name="email">info@sjai.co.id</field>
+            <field name="street">Desa Lape, Kec. Kapuas</field>
+            <field name="street2">-</field>
+            <field name="zip">78512</field>
+            <field name="vat">02.623.195.1-705.000</field>
+            <field name="city">Kabupaten Sanggau</field>
+            <field name="state_id" ref="base.state_id_kb"/>
+            <field name="currency_id" ref="base.IDR"/>
+            <field name="country_id" ref="base.id"/>
+            <field name="logo" type="base64" file="c10i_base/static/description/icon.png"/>
+        </record>
+    </data>
+</odoo>
